@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0D9488;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2DD4BF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E293B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0F172A;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="100%" height="100%" fill="url(#cardGrad)"/>
+  
+  <circle cx="400" cy="220" r="110" fill="url(#grad1)" opacity="0.9" />
+  
+  <polygon points="400,140 470,260 330,260" fill="#FFFFFF" />
+  
+  <text x="400" y="380" font-family="Segoe UI, sans-serif" font-size="28" font-weight="bold" fill="#FFFFFF" text-anchor="middle">
+    Vetor SVG Gráfico de Alta Fidelidade
+  </text>
+  
+  <text x="400" y="420" font-family="Segoe UI, sans-serif" font-size="16" fill="#94A3B8" text-anchor="middle">
+    Preservação milimétrica de curvas, gradientes e formas vetoriais no PDF
+  </text>
+  
+  <rect x="250" y="460" width="300" height="44" rx="8" fill="url(#grad1)"/>
+  <text x="400" y="488" font-family="Segoe UI, sans-serif" font-size="14" font-weight="bold" fill="#042F2E" text-anchor="middle">
+    CONVERSÃO VETORIAL IMPECÁVEL
+  </text>
+</svg>

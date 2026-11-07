@@ -1,0 +1,15 @@
+# Configuração do Pipeline de Testes e Build
+pipeline:
+  nome: PDF Converter Test Suite
+  ambiente: Windows x64
+  passos:
+    - nome: Gerar Fixtures de Teste
+      comando: node testes/generate-fixtures.js
+    - nome: Executar Conversões e Validações
+      comando: electron testes/runner.js
+    - nome: Verificar Integridade Estrutural
+      verificarHeaderPdf: true
+      verificarBytes: true
+      verificarPaginas: true
+  metricas:
+    taxaAprovacaoMinima: 100%

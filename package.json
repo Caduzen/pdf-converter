@@ -1,0 +1,123 @@
+{
+  "name": "pdf-converter",
+  "version": "1.0.0",
+  "description": "Conversor Universal de Arquivos para PDF com Preservação de Formatação Original",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "electron testes/runner.js",
+    "test:fixtures": "node testes/generate-fixtures.js",
+    "build": "electron-builder --publish never",
+    "build:win": "electron-builder --win --publish never",
+    "build:linux": "electron-builder --linux --publish never",
+    "build:mac": "electron-builder --mac --publish never"
+  },
+  "keywords": [
+    "pdf",
+    "converter",
+    "word",
+    "notes",
+    "excel",
+    "cross-platform"
+  ],
+  "author": "Caduzen <cscarlinhos@hotmail.com>",
+  "license": "PolyForm-Noncommercial-1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Caduzen/pdf-converter.git"
+  },
+  "homepage": "https://github.com/Caduzen/pdf-converter#readme",
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.9.1",
+    "sharp": "^0.35.5"
+  },
+  "dependencies": {
+    "docx-preview": "^0.3.3",
+    "jszip": "^3.10.1",
+    "mammoth": "^1.13.0",
+    "marked": "^15.0.7",
+    "pdf-lib": "^1.17.1",
+    "xlsx": "^0.18.5"
+  },
+  "build": {
+    "appId": "com.pdfconverter.app",
+    "productName": "PDF Converter",
+    "copyright": "Copyright © 2026 PDF Converter Studio",
+    "publish": null,
+    "npmRebuild": false,
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "index.html",
+      "renderer.js",
+      "styles.css",
+      "pix-qrcode.png",
+      "icon.png",
+      "icon.ico",
+      "icon.icns",
+      "icon.svg"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "icon.ico",
+      "artifactName": "${productName} Setup ${version}.${ext}"
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ],
+      "icon": "icon.png",
+      "category": "Office",
+      "maintainer": "PDF Converter Studio <suporte@pdfconverter.app>",
+      "synopsis": "Conversor Universal de Arquivos para PDF com Fidelidade Original"
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "icon.icns",
+      "category": "public.app-category.productivity"
+    },
+    "nsis": {
+      "include": "installer.nsh",
+      "oneClick": false,
+      "perMachine": false,
+      "allowElevation": true,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "PDF Converter",
+      "uninstallDisplayName": "PDF Converter",
+      "deleteAppDataOnUninstall": true,
+      "installerIcon": "icon.ico",
+      "uninstallerIcon": "icon.ico",
+      "installerHeaderIcon": "icon.ico",
+      "installerHeader": "build-resources/installerHeader.bmp",
+      "installerSidebar": "build-resources/installerSidebar.bmp",
+      "uninstallerSidebar": "build-resources/uninstallerSidebar.bmp",
+      "multiLanguageInstaller": true,
+      "installerLanguages": [
+        "pt_BR",
+        "pt_PT",
+        "en_US",
+        "es_ES",
+        "fr_FR",
+        "de_DE",
+        "ru_RU",
+        "zh_CN",
+        "ja_JP"
+      ],
+      "displayLanguageSelector": false
+    }
+  }
+}

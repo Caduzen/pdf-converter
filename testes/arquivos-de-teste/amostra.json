@@ -1,0 +1,66 @@
+{
+  "projeto": "PDF Converter Suite",
+  "versao": "1.0.0",
+  "status": "Produção",
+  "recursos": {
+    "multiArquivos": true,
+    "dragAndDrop": true,
+    "idiomas": 9,
+    "carteiras": [
+      "PIX",
+      "Buy Me a Coffee",
+      "Ko-fi"
+    ],
+    "suporteTier": "Universal"
+  },
+  "modulosSuportados": [
+    {
+      "categoria": "Word",
+      "extensoes": [
+        ".docx",
+        ".doc",
+        ".rtf",
+        ".odt"
+      ]
+    },
+    {
+      "categoria": "Planilhas",
+      "extensoes": [
+        ".xlsx",
+        ".xls",
+        ".csv",
+        ".ods"
+      ]
+    },
+    {
+      "categoria": "Apresentações",
+      "extensoes": [
+        ".pptx",
+        ".ppt",
+        ".odp"
+      ]
+    },
+    {
+      "categoria": "Web e Código",
+      "extensoes": [
+        ".html",
+        ".json",
+        ".xml",
+        ".sql",
+        ".js",
+        ".py",
+        ".css"
+      ]
+    },
+    {
+      "categoria": "Imagens e Vetores",
+      "extensoes": [
+        ".png",
+        ".jpg",
+        ".webp",
+        ".svg",
+        ".bmp"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+# NOTAS RÁPIDAS & ANOTAÇÕES
+-------------------------------------------------------
+Assunto: Brainstorming de Arquitetura 2026
+Prioridade: Alta
+Status: Em Andamento
+
+- Implementar conversores multi-tier com failover gracioso
+- Garantir tempo de conversão < 1.5s por arquivo
+- Certificar compatibilidade WCAG 2.2 AA em todos os relatórios

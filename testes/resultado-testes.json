@@ -1,0 +1,483 @@
+{
+  "suiteTitle": "Relatório Oficial de Testes de Conversão e Fidelidade PDF Converter",
+  "timestamp": "2026-11-07T11:14:25.007Z",
+  "platform": "win32",
+  "arch": "x64",
+  "summary": {
+    "total": 26,
+    "passed": 26,
+    "failed": 0,
+    "successRate": "100.0%"
+  },
+  "results": [
+    {
+      "testType": "single",
+      "fileName": "amostra.bmp",
+      "extension": ".bmp",
+      "inputSizeBytes": 30054,
+      "outputPdfPath": "testes/saida-pdf/amostra_de_bmp.pdf",
+      "outputSizeBytes": 1324,
+      "status": "PASS",
+      "pageCount": 1,
+      "dimensions": [
+        {
+          "width": 596,
+          "height": 843
+        }
+      ],
+      "durationMs": 348,
+      "errorMessage": null
+    },
+    {
+      "testType": "single",
+      "fileName": "amostra.css",
+      "extension": ".css",
+      "inputSizeBytes": 585,
+      "outputPdfPath": "testes/saida-pdf/amostra_de_css.pdf",
+      "outputSizeBytes": 39768,
+      "status": "PASS",
+      "pageCount": 1,
+      "dimensions": [
+        {
+          "width": 596,
+          "height": 843
+        }
+      ],
+      "durationMs": 398,
+      "errorMessage": null
+    },
+    {
+      "testType": "single",
+      "fileName": "amostra.csv",
+      "extension": ".csv",
+      "inputSizeBytes": 175,
+      "outputPdfPath": "testes/saida-pdf/amostra_de_csv.pdf",
+      "outputSizeBytes": 31746,
+      "status": "PASS",
+      "pageCount": 1,
+      "dimensions": [
+        {
+          "width": 595,
+          "height": 842
+        }
+      ],
+      "durationMs": 344,
+      "errorMessage": null
+    },
+    {
+      "testType": "single",
+      "fileName": "amostra.docx",
+      "extension": ".docx",
+      "inputSizeBytes": 2714,
+      "outputPdfPath": "testes/saida-pdf/amostra_de_docx.pdf",
+      "outputSizeBytes": 66266,
+      "status": "PASS",
+      "pageCount": 1,
+      "dimensions": [
+        {
+          "width": 596,
+          "height": 843
+        }
+      ],
+      "durationMs": 6540,
+      "errorMessage": null
+    },
+    {
+      "testType": "single",
+      "fileName": "amostra.html",
+      "extension": ".html",
+      "inputSizeBytes": 2300,
+      "outputPdfPath": "testes/saida-pdf/amostra_de_html.pdf",
+      "outputSizeBytes": 41432,
+      "status": "PASS",
+      "pageCount": 1,
+      "dimensions": [
+        {
+          "width": 596,
+          "height": 843
+        }
+      ],
+      "durationMs": 293,
+      "errorMessage": null
+    },
+    {
+      "testType": "single",
+      "fileName": "amostra.js",
+      "extension": ".js",
+      "inputSizeBytes": 591,
+      "outputPdfPath": "testes/saida-pdf/amostra_de_js.pdf",
+      "outputSizeBytes": 41476,
+      "status": "PASS",
+      "pageCount": 1,
+      "dimensions": [
+        {
+          "width": 596,
+          "height": 843
+        }
+      ],
+      "durationMs": 310,
+      "errorMessage": null
+    },
+    {
+      "testType": "single",
+      "fileName": "amostra.json",
+      "extension": ".json",
+      "inputSizeBytes": 1064,
+      "outputPdfPath": "testes/saida-pdf/amostra_de_json.pdf",
+      "outputSizeBytes": 45965,
+      "status": "PASS",
+      "pageCount": 2,
+      "dimensions": [
+        {
+          "width": 596,
+          "height": 843
+        },
+        {
+          "width": 596,
+          "height": 843
+        }
+      ],
+      "durationMs": 322,
+      "errorMessage": null
+    },
+    {
+      "testType": "single",
+      "fileName": "amostra.log",
+      "extension": ".log",
+      "inputSizeBytes": 385,
+      "outputPdfPath": "testes/saida-pdf/amostra_de_log.pdf",
+      "outputSizeBytes": 18837,
+      "status": "PASS",
+      "pageCount": 1,
+      "dimensions": [
+        {
+          "width": 596,
+          "height": 843
+        }
+      ],
+      "durationMs": 275,
+      "errorMessage": null
+    },
+    {
+      "testType": "single",
+      "fileName": "amostra.md",
+      "extension": ".md",
+      "inputSizeBytes": 1068,
+      "outputPdfPath": "testes/saida-pdf/amostra_de_md.pdf",
+      "outputSizeBytes": 69529,
+      "status": "PASS",
+      "pageCount": 1,
+      "dimensions": [
+        {
+          "width": 596,
+          "height": 843
+        }
+      ],
+      "durationMs": 418,
+      "errorMessage": null
+    },
+    {
+      "testType": "single",
+      "fileName": "amostra.note",
+      "extension": ".note",
+      "inputSizeBytes": 342,
+      "outputPdfPath": "testes/saida-pdf/amostra_de_note.pdf",
+      "outputSizeBytes": 17981,
+      "status": "PASS",
+      "pageCount": 1,
+      "dimensions": [
+        {
+          "width": 596,
+          "height": 843
+        }
+      ],
+      "durationMs": 295,
+      "errorMessage": null
+    },
+    {
+      "testType": "single",
+      "fileName": "amostra.ods",
+      "extension": ".ods",
+      "inputSizeBytes": 13820,
+      "outputPdfPath": "testes/saida-pdf/amostra_de_ods.pdf",
+      "outputSizeBytes": 41770,
+      "status": "PASS",
+      "pageCount": 2,
+      "dimensions": [
+        {
+          "width": 595,
+          "height": 842
+        },
+        {
+          "width": 595,
+          "height": 842
+        }
+      ],
+      "durationMs": 404,
+      "errorMessage": null
+    },
+    {
+      "testType": "single",
+      "fileName": "amostra.odt",
+      "extension": ".odt",
+      "inputSizeBytes": 1873,
+      "outputPdfPath": "testes/saida-pdf/amostra_de_odt.pdf",
+      "outputSizeBytes": 15599,
+      "status": "PASS",
+      "pageCount": 1,
+      "dimensions": [
+        {
+          "width": 596,
+          "height": 843
+        }
+      ],
+      "durationMs": 309,
+      "errorMessage": null
+    },
+    {
+      "testType": "single",
+      "fileName": "amostra.pdf",
+      "extension": ".pdf",
+      "inputSizeBytes": 1151,
+      "outputPdfPath": "testes/saida-pdf/amostra_de_pdf.pdf",
+      "outputSizeBytes": 1151,
+      "status": "PASS",
+      "pageCount": 1,
+      "dimensions": [
+        {
+          "width": 595,
+          "height": 842
+        }
+      ],
+      "durationMs": 5,
+      "errorMessage": null
+    },
+    {
+      "testType": "single",
+      "fileName": "amostra.png",
+      "extension": ".png",
+      "inputSizeBytes": 12236,
+      "outputPdfPath": "testes/saida-pdf/amostra_de_png.pdf",
+      "outputSizeBytes": 11906,
+      "status": "PASS",
+      "pageCount": 1,
+      "dimensions": [
+        {
+          "width": 512,
+          "height": 512
+        }
+      ],
+      "durationMs": 93,
+      "errorMessage": null
+    },
+    {
+      "testType": "single",
+      "fileName": "amostra.pptx",
+      "extension": ".pptx",
+      "inputSizeBytes": 3139,
+      "outputPdfPath": "testes/saida-pdf/amostra_de_pptx.pdf",
+      "outputSizeBytes": 25426,
+      "status": "PASS",
+      "pageCount": 1,
+      "dimensions": [
+        {
+          "width": 842,
+          "height": 473
+        }
+      ],
+      "durationMs": 4004,
+      "errorMessage": null
+    },
+    {
+      "testType": "single",
+      "fileName": "amostra.py",
+      "extension": ".py",
+      "inputSizeBytes": 1015,
+      "outputPdfPath": "testes/saida-pdf/amostra_de_py.pdf",
+      "outputSizeBytes": 45118,
+      "status": "PASS",
+      "pageCount": 1,
+      "dimensions": [
+        {
+          "width": 596,
+          "height": 843
+        }
+      ],
+      "durationMs": 281,
+      "errorMessage": null
+    },
+    {
+      "testType": "single",
+      "fileName": "amostra.rtf",
+      "extension": ".rtf",
+      "inputSizeBytes": 574,
+      "outputPdfPath": "testes/saida-pdf/amostra_de_rtf.pdf",
+      "outputSizeBytes": 16451,
+      "status": "PASS",
+      "pageCount": 1,
+      "dimensions": [
+        {
+          "width": 596,
+          "height": 843
+        }
+      ],
+      "durationMs": 279,
+      "errorMessage": null
+    },
+    {
+      "testType": "single",
+      "fileName": "amostra.sql",
+      "extension": ".sql",
+      "inputSizeBytes": 974,
+      "outputPdfPath": "testes/saida-pdf/amostra_de_sql.pdf",
+      "outputSizeBytes": 43811,
+      "status": "PASS",
+      "pageCount": 1,
+      "dimensions": [
+        {
+          "width": 596,
+          "height": 843
+        }
+      ],
+      "durationMs": 341,
+      "errorMessage": null
+    },
+    {
+      "testType": "single",
+      "fileName": "amostra.svg",
+      "extension": ".svg",
+      "inputSizeBytes": 1420,
+      "outputPdfPath": "testes/saida-pdf/amostra_de_svg.pdf",
+      "outputSizeBytes": 28348,
+      "status": "PASS",
+      "pageCount": 1,
+      "dimensions": [
+        {
+          "width": 596,
+          "height": 843
+        }
+      ],
+      "durationMs": 299,
+      "errorMessage": null
+    },
+    {
+      "testType": "single",
+      "fileName": "amostra.txt",
+      "extension": ".txt",
+      "inputSizeBytes": 614,
+      "outputPdfPath": "testes/saida-pdf/amostra_de_txt.pdf",
+      "outputSizeBytes": 44265,
+      "status": "PASS",
+      "pageCount": 1,
+      "dimensions": [
+        {
+          "width": 596,
+          "height": 843
+        }
+      ],
+      "durationMs": 357,
+      "errorMessage": null
+    },
+    {
+      "testType": "single",
+      "fileName": "amostra.xls",
+      "extension": ".xls",
+      "inputSizeBytes": 5632,
+      "outputPdfPath": "testes/saida-pdf/amostra_de_xls.pdf",
+      "outputSizeBytes": 41770,
+      "status": "PASS",
+      "pageCount": 2,
+      "dimensions": [
+        {
+          "width": 595,
+          "height": 842
+        },
+        {
+          "width": 595,
+          "height": 842
+        }
+      ],
+      "durationMs": 4084,
+      "errorMessage": null
+    },
+    {
+      "testType": "single",
+      "fileName": "amostra.xlsx",
+      "extension": ".xlsx",
+      "inputSizeBytes": 18874,
+      "outputPdfPath": "testes/saida-pdf/amostra_de_xlsx.pdf",
+      "outputSizeBytes": 70726,
+      "status": "PASS",
+      "pageCount": 2,
+      "dimensions": [
+        {
+          "width": 595,
+          "height": 842
+        },
+        {
+          "width": 595,
+          "height": 842
+        }
+      ],
+      "durationMs": 3793,
+      "errorMessage": null
+    },
+    {
+      "testType": "single",
+      "fileName": "amostra.xml",
+      "extension": ".xml",
+      "inputSizeBytes": 539,
+      "outputPdfPath": "testes/saida-pdf/amostra_de_xml.pdf",
+      "outputSizeBytes": 37695,
+      "status": "PASS",
+      "pageCount": 1,
+      "dimensions": [
+        {
+          "width": 596,
+          "height": 843
+        }
+      ],
+      "durationMs": 283,
+      "errorMessage": null
+    },
+    {
+      "testType": "single",
+      "fileName": "amostra.yaml",
+      "extension": ".yaml",
+      "inputSizeBytes": 471,
+      "outputPdfPath": "testes/saida-pdf/amostra_de_yaml.pdf",
+      "outputSizeBytes": 41687,
+      "status": "PASS",
+      "pageCount": 1,
+      "dimensions": [
+        {
+          "width": 596,
+          "height": 843
+        }
+      ],
+      "durationMs": 299,
+      "errorMessage": null
+    },
+    {
+      "testType": "multi-merge",
+      "fileName": "4 Arquivos (MD + TXT + HTML + SVG)",
+      "extension": "multi-merge",
+      "inputSizeBytes": 5402,
+      "outputPdfPath": "testes/saida-pdf/multiplos_mesclados_unificado.pdf",
+      "outputSizeBytes": 157527,
+      "status": "PASS",
+      "pageCount": 4,
+      "durationMs": 1326,
+      "errorMessage": null
+    },
+    {
+      "testType": "multi-batch",
+      "fileName": "3 Arquivos (JSON + SQL + PY)",
+      "extension": "multi-batch",
+      "status": "PASS",
+      "pageCount": 4,
+      "durationMs": 878,
+      "errorMessage": null
+    }
+  ]
+}

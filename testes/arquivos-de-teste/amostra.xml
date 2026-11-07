@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuracoesSistema xmlns="http://pdfconverter.app/schema">
+  <aplicacao>
+    <nome>PDF Converter Universal</nome>
+    <versao>1.0.0</versao>
+    <ambiente>Producao</ambiente>
+  </aplicacao>
+  <modulos>
+    <modulo id="1" ativo="true">
+      <nome>Conversor Word Nativo</nome>
+      <prioridade>Alta</prioridade>
+    </modulo>
+    <modulo id="2" ativo="true">
+      <nome>Conversor de Planilhas e Tabelas</nome>
+      <prioridade>Alta</prioridade>
+    </modulo>
+  </modulos>
+</configuracoesSistema>

@@ -1,0 +1,17 @@
+=======================================================
+BLOCO DE NOTAS / TEXTO PLANO UTF-8 (TESTE)
+=======================================================
+Data: 07/11/2026
+Autor: PDF Converter Engine Suite
+Finalidade: Validação de preservação de caracteres acentuados (ã, é, ç, õ, ú),
+emojis (🚀, 📄, ⚡, 🛡️, ⭐), tabulações e recuos.
+
+Checklist de Verificação:
+  [✓] Recuo com 2 espaços
+    [✓] Recuo aninhado com 4 espaços
+      [✓] Recuo profundo com 6 espaços
+	[✓] Tabulação física real (tab stop)
+  [✓] Quebras de linha consecutivas:
+
+
+Fim do arquivo de teste de notas.
