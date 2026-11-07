@@ -1,8 +1,14 @@
 # PDF Converter v1.0.0 — Conversor Universal de Alta Fidelidade
 
+[![Baixar Instalador Windows (.exe)](https://img.shields.io/badge/Download-Windows%20Setup%20(.exe)-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Caduzen/pdf-converter/releases/download/v1.0.0/PDF.Converter.Setup.1.0.0.exe)
+[![Ver Todas as Versões](https://img.shields.io/badge/Releases-v1.0.0-238636?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Caduzen/pdf-converter/releases/latest)
 [![GitHub stars](https://img.shields.io/github/stars/Caduzen/pdf-converter?style=social)](https://github.com/Caduzen/pdf-converter)
 [![License: PolyForm Noncommercial](https://img.shields.io/badge/License-PolyForm%20Noncommercial-blue.svg)](LICENSE)
 [![Platform: Windows | macOS | Linux](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-teal.svg)](#-compatibilidade-multiplataforma)
+
+> 📥 **Download Direto para Windows:**  
+> 👉 **[Clique aqui para Baixar o Instalador Oficial (`PDF Converter Setup 1.0.0.exe`)](https://github.com/Caduzen/pdf-converter/releases/download/v1.0.0/PDF.Converter.Setup.1.0.0.exe)**  
+> *(Também disponível na barra lateral direita do repositório na seção **Releases**)*
 
 Aplicação desktop profissional multiplataforma (Electron) para converter documentos **Word, Notas, Markdown, Planilhas Excel/CSV, Apresentações PowerPoint, HTML, Código-Fonte e Imagens** para PDF **preservando 100% da formatação original**.
 
